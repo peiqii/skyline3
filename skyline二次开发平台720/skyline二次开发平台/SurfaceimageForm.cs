@@ -43,7 +43,7 @@ namespace skyline二次开发平台
                     string path = ofd.FileName;
                     textBox1.Text=path;
                     int groupid = MainForm.sgworld.ProjectTree.FindItem("\\贴图");
-                    surfaceimage = MainForm.sgworld.Creator.CreateImageryLayer(path, 0, 0, 0, 0, null, "", groupid, "学院路");
+                    surfaceimage = MainForm.sgworld.Creator.CreateImageryLayer(path, 0, 0, 0, 0, null, "", groupid, "");
                     MainForm.sgworld.Navigate.FlyTo(surfaceimage, ActionCode.AC_FLYTO);
 
                 }
