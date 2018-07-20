@@ -37,6 +37,7 @@ namespace skyline二次开发平台
         private int tduid;
         private ITerrainModel61 A1lou,keyanlou,xue19lou,yifulou,zk,dzt;
         private Random RandomClass = new Random();
+      
         AutoSizeFormClass asc = new AutoSizeFormClass();
         public MainForm()
         {           
@@ -108,14 +109,15 @@ namespace skyline二次开发平台
             IPosition61 A1loupos,keyanloupos,xue19loupos,yifuloupos,dztpos = null;
             IPosition61 zkpos = null;
             //添加建筑
+            int buildingid = IInfoTree.FindItem("\\建筑物");
             A1loupos = MainForm.sgworld.Creator.CreatePosition(116.3465138888889, 39.99398583333333, 0, AltitudeTypeCode.ATC_TERRAIN_RELATIVE, 275, 90, 97.0, 1000);
-            A1lou = MainForm.sgworld.Creator.CreateModel(A1loupos, Application.StartupPath + "\\model\\CE15_1ALou-1.x", 1, ModelTypeCode.MT_NORMAL, 0, "A1楼");
+            A1lou = MainForm.sgworld.Creator.CreateModel(A1loupos, Application.StartupPath + "\\model\\CE15_1ALou-1.x", 1, ModelTypeCode.MT_NORMAL,buildingid, "A1楼");
             keyanloupos = MainForm.sgworld.Creator.CreatePosition(116.35406944444445, 39.9929025, 0, AltitudeTypeCode.ATC_TERRAIN_RELATIVE, 275, 90, 100.0, 1000);
-            keyanlou = MainForm.sgworld.Creator.CreateModel(keyanloupos, Application.StartupPath + "\\model\\CE15_KeYanLou.x", 1, ModelTypeCode.MT_NORMAL, 0, "科研楼");
+            keyanlou = MainForm.sgworld.Creator.CreateModel(keyanloupos, Application.StartupPath + "\\model\\CE15_KeYanLou.x", 1, ModelTypeCode.MT_NORMAL, buildingid, "科研楼");
             xue19loupos = MainForm.sgworld.Creator.CreatePosition(116.35145833333333, 39.992735833333334, 0, AltitudeTypeCode.ATC_TERRAIN_RELATIVE, 275, 90, 100.0, 1000);
-            xue19lou = MainForm.sgworld.Creator.CreateModel(xue19loupos, Application.StartupPath + "\\model\\CE15_Xue19Lou.x", 1, ModelTypeCode.MT_NORMAL, 0, "学19楼");
+            xue19lou = MainForm.sgworld.Creator.CreateModel(xue19loupos, Application.StartupPath + "\\model\\CE15_Xue19Lou.x", 1, ModelTypeCode.MT_NORMAL,buildingid, "学19楼");
             yifuloupos = MainForm.sgworld.Creator.CreatePosition(116.35815277777778, 39.992874722222226, 0, AltitudeTypeCode.ATC_TERRAIN_RELATIVE, 275, 90, 100.0, 1000);
-            yifulou = MainForm.sgworld.Creator.CreateModel(yifuloupos, Application.StartupPath + "\\model\\CE15_YiFuLou.x", 1, ModelTypeCode.MT_NORMAL, 0, "逸夫楼");
+            yifulou = MainForm.sgworld.Creator.CreateModel(yifuloupos, Application.StartupPath + "\\model\\CE15_YiFuLou.x", 1, ModelTypeCode.MT_NORMAL, buildingid, "逸夫楼");
             //添加钻孔
             zkpos = MainForm.sgworld.Creator.CreatePosition(116.28534722222223, 39.96573583333333, 0, AltitudeTypeCode.ATC_TERRAIN_RELATIVE, 275, 90, 6.0, 1000);
             zk = MainForm.sgworld.Creator.CreateModel(zkpos, Application.StartupPath + "\\model\\zk100_20180719.x", 1, ModelTypeCode.MT_NORMAL, 0, "钻孔");
@@ -202,50 +204,63 @@ namespace skyline二次开发平台
 
         private void 天地图ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            //sgworld.Command.Execute(1014, 21);
-            //string strFindUrl = "http://t0.tianditu.com/img_c/wmts";
-            //string strJSONTxt;
-            //HttpWebRequest req = (HttpWebRequest)WebRequest.Create(strFindUrl);
-            //HttpWebResponse res = (HttpWebResponse)req.GetResponse();
-            //Stream s = res.GetResponseStream();
-            //StreamReader r = new StreamReader(s);
-            //strJSONTxt = r.ReadToEnd();
-            //strJSONTxt = "[" + strJSONTxt.Trim() + "]";
-            //sgworld.Creator.CreatePosition()
-
-            //设置天地图图层显示
             IInfoTree.SetVisibility(tduid, 1);
         }
 
         private void 钻孔显示ToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            var itemId = sgworld.ProjectTree.FindItem("新建圆锥");
-            MessageBox.Show("" + itemId);
-            var layer = sgworld.ProjectTree.GetLayer(itemId);                           
+            bool flag = true;
+            imenu.Invoke(34416);
+            sgworld.Command.Execute(1027, 0);
+            int zkid = IInfoTree.FindItem("\\钻孔");
+            int dizhitiid = IInfoTree.FindItem("\\地质体");
+            int buildingid = IInfoTree.FindItem("\\建筑物");
+            int xulid = sgworld.ProjectTree.FindItem("\\贴图\\学院路");
+            int tdu = IInfoTree.FindItem("\\底图\\天地图");
+            IInfoTree.SetVisibility(zkid, 1);
+   
+           
+            if (flag)
+            {
+                
+                IInfoTree.SetGroupVisibility(buildingid, 0);
+                IInfoTree.SetVisibility(dizhitiid, 0);
+                IInfoTree.SetVisibility(xulid, 0);
+                IInfoTree.SetVisibility(tdu, 0);
+                flag = false;
+            }
+            else
+            {
+                IInfoTree.SetGroupVisibility(buildingid, 1);
+                IInfoTree.SetVisibility(dizhitiid, 1);
+                flag = true;
+
+            }
+
+
+
         }
 
         private void 地上地下一体化显示ToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            //if (Ita.Opacity == 0) { Ita.Opacity = 1; }
-
-            //else { Ita.Opacity = 0; }
-            //sgworld.Terrain.Opacity = 0;
-            int groupid = sgworld.ProjectTree.FindItem("\\贴图");
-
-            // MessageBox.Show("" + groupid);
-            int itemid = sgworld.ProjectTree.GetNextItem(groupid, ItemCode.CHILD);
-            if (itemid > 0)
-            //string name=sgworld.ProjectTree.GetItemName(itemid);
+            bool flag = true;
+            imenu.Invoke(34416);
+            sgworld.Command.Execute(1027, 0);
+            int zkid = IInfoTree.FindItem("\\钻孔");
+            int dizhitiid = IInfoTree.FindItem("\\地质体");
+            int buildingid = IInfoTree.FindItem("\\建筑物");
+            int xulid = sgworld.ProjectTree.FindItem("\\贴图\\学院路");
+            int tdu = IInfoTree.FindItem("\\底图\\天地图");
+            if (flag)
             {
-                IInfoTree.SetVisibility(tduid, 0);
-                imenu.Invoke(34416);
-                IInfoTree.SetVisibility(itemid, 1);
 
-            }
-            else
-            {
-                MessageBox.Show("请先导入地形贴图");
-            }
+                IInfoTree.SetVisibility(zkid, 1);
+                IInfoTree.SetGroupVisibility(buildingid, 1);
+                IInfoTree.SetVisibility(dizhitiid, 1);
+                IInfoTree.SetVisibility(xulid, 1);
+                IInfoTree.SetVisibility(tdu, 0);
+                flag = false;
+            }           
 
         }
 
