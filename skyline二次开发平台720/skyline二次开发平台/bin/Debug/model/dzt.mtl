@@ -1,0 +1,1045 @@
+# wavefront mtl file written by the visualization toolkit
+
+newmtl mtl1
+Ka 1 1 1
+Kd 0 1 0
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl10741
+Ka 1 1 1
+Kd 0.501961 0 0
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl12790
+Ka 1 1 1
+Kd 0 0 1
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl13609
+Ka 1 1 1
+Kd 1 1 0
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl26632
+Ka 1 1 1
+Kd 1 0 1
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl27436
+Ka 1 1 1
+Kd 0 1 1
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl28258
+Ka 1 1 1
+Kd 0 0 1
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl29128
+Ka 1 1 1
+Kd 0.501961 0 0
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl29797
+Ka 1 1 1
+Kd 0 1 1
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl29821
+Ka 1 1 1
+Kd 1 1 0
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl30028
+Ka 1 1 1
+Kd 1 1 0
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl43051
+Ka 1 1 1
+Kd 1 1 0
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl43258
+Ka 1 1 1
+Kd 0.501961 0 0
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl53971
+Ka 1 1 1
+Kd 0.501961 0.501961 0
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl53974
+Ka 1 1 1
+Kd 1 0 1
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl58036
+Ka 1 1 1
+Kd 0 0.501961 0
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl58099
+Ka 1 1 1
+Kd 0 1 1
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl60622
+Ka 1 1 1
+Kd 1 0 1
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl64684
+Ka 1 1 1
+Kd 1 0 1
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl65488
+Ka 1 1 1
+Kd 0 1 1
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl65764
+Ka 1 1 1
+Kd 0.501961 0 0
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl69898
+Ka 1 1 1
+Kd 0.501961 0.501961 0
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl69934
+Ka 1 1 1
+Kd 0 1 1
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl70756
+Ka 1 1 1
+Kd 0 1 1
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl70780
+Ka 1 1 1
+Kd 0 1 1
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl73303
+Ka 1 1 1
+Kd 0 1 1
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl73579
+Ka 1 1 1
+Kd 0.501961 0 0
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl73891
+Ka 1 1 1
+Kd 0 0.501961 0.501961
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl74413
+Ka 1 1 1
+Kd 0.501961 0.501961 0
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl76624
+Ka 1 1 1
+Kd 0.501961 0 0
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl78673
+Ka 1 1 1
+Kd 0.501961 0 0
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl79342
+Ka 1 1 1
+Kd 0.501961 0 0
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl90055
+Ka 1 1 1
+Kd 0.501961 0 0
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl94189
+Ka 1 1 1
+Kd 0.501961 0 0
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl94501
+Ka 1 1 1
+Kd 0 0.501961 0
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl95056
+Ka 1 1 1
+Kd 0.501961 0.501961 0
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl104659
+Ka 1 1 1
+Kd 0 0.501961 0
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl105214
+Ka 1 1 1
+Kd 0 0.501961 0
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl105277
+Ka 1 1 1
+Kd 0 0 0.501961
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl105784
+Ka 1 1 1
+Kd 0.501961 0.501961 0
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl105883
+Ka 1 1 1
+Kd 0 0 0.501961
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl106390
+Ka 1 1 1
+Kd 0.501961 0.501961 0
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl106897
+Ka 1 1 1
+Kd 0.501961 0.501961 0
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl116500
+Ka 1 1 1
+Kd 0.501961 0.501961 0
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl116503
+Ka 1 1 1
+Kd 0.501961 0.501961 0
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl116539
+Ka 1 1 1
+Kd 0.501961 0.501961 0
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl116638
+Ka 1 1 1
+Kd 0.501961 0.501961 0
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl118849
+Ka 1 1 1
+Kd 0.501961 0.501961 0
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl119356
+Ka 1 1 1
+Kd 0.752941 0.752941 0.752941
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl119746
+Ka 1 1 1
+Kd 0 0.501961 0.501961
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl130594
+Ka 1 1 1
+Kd 0.501961 0 0.501961
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl130915
+Ka 1 1 1
+Kd 0.501961 0 0.501961
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl131236
+Ka 1 1 1
+Kd 0.752941 0.752941 0.752941
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl131557
+Ka 1 1 1
+Kd 0 0.501961 0.501961
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl132079
+Ka 1 1 1
+Kd 0 0.501961 0.501961
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl142927
+Ka 1 1 1
+Kd 0.6 0.6 1
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl143203
+Ka 1 1 1
+Kd 1 1 0.8
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl144421
+Ka 1 1 1
+Kd 0.752941 0.752941 0.752941
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl155737
+Ka 1 1 1
+Kd 0.501961 0.501961 0.501961
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl156013
+Ka 1 1 1
+Kd 0.752941 0.752941 0.752941
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl167329
+Ka 1 1 1
+Kd 0.752941 0.752941 0.752941
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl167719
+Ka 1 1 1
+Kd 0.752941 0.752941 0.752941
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl168040
+Ka 1 1 1
+Kd 0.6 0.6 1
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl172402
+Ka 1 1 1
+Kd 1 1 0.8
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl182041
+Ka 1 1 1
+Kd 0.501961 0.501961 0.501961
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl182797
+Ka 1 1 1
+Kd 0.8 1 1
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl182989
+Ka 1 1 1
+Kd 1 0.501961 0.501961
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl182995
+Ka 1 1 1
+Kd 0.6 0.2 0.4
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl183214
+Ka 1 1 1
+Kd 0.501961 0.501961 0.501961
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl183970
+Ka 1 1 1
+Kd 0.501961 0.501961 0.501961
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl184246
+Ka 1 1 1
+Kd 0.6 0.6 1
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl184765
+Ka 1 1 1
+Kd 0.6 0.2 0.4
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl184840
+Ka 1 1 1
+Kd 1 1 0.8
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl185176
+Ka 1 1 1
+Kd 0.6 0.6 1
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl189538
+Ka 1 1 1
+Kd 0.6 0.6 1
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl190057
+Ka 1 1 1
+Kd 0.6 0.6 1
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl190333
+Ka 1 1 1
+Kd 1 1 0.8
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl192172
+Ka 1 1 1
+Kd 0.4 0 0.4
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl193780
+Ka 1 1 1
+Kd 0 0.4 0.8
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl193996
+Ka 1 1 1
+Kd 0.8 1 1
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl195430
+Ka 1 1 1
+Kd 1 0.501961 0.501961
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl195688
+Ka 1 1 1
+Kd 0.6 0.2 0.4
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl197176
+Ka 1 1 1
+Kd 0.6 0.2 0.4
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl197395
+Ka 1 1 1
+Kd 0.6 0.2 0.4
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl197470
+Ka 1 1 1
+Kd 0.6 0.2 0.4
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl198958
+Ka 1 1 1
+Kd 1 1 0.8
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl199396
+Ka 1 1 1
+Kd 0.4 0 0.4
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl199948
+Ka 1 1 1
+Kd 0.8 1 1
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl200932
+Ka 1 1 1
+Kd 1 0.501961 0.501961
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl201247
+Ka 1 1 1
+Kd 1 1 0.8
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl202465
+Ka 1 1 1
+Kd 1 1 0.8
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl204304
+Ka 1 1 1
+Kd 1 1 0.8
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl204742
+Ka 1 1 1
+Kd 1 1 0.8
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl214381
+Ka 1 1 1
+Kd 1 1 0.8
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl214717
+Ka 1 1 1
+Kd 0.8 1 1
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl225187
+Ka 1 1 1
+Kd 0.4 0 0.4
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl225451
+Ka 1 1 1
+Kd 0.8 1 1
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl226885
+Ka 1 1 1
+Kd 0.8 1 1
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl227869
+Ka 1 1 1
+Kd 0.8 1 1
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl238339
+Ka 1 1 1
+Kd 0.8 1 1
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl238531
+Ka 1 1 1
+Kd 1 0.501961 0.501961
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl241273
+Ka 1 1 1
+Kd 0.4 0 0.4
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl251350
+Ka 1 1 1
+Kd 0 0.4 0.8
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl251434
+Ka 1 1 1
+Kd 0.4 0 0.4
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl253042
+Ka 1 1 1
+Kd 0.4 0 0.4
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl253594
+Ka 1 1 1
+Kd 0.4 0 0.4
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl253858
+Ka 1 1 1
+Kd 0.4 0 0.4
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl263935
+Ka 1 1 1
+Kd 0.2 0.4 1
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl263977
+Ka 1 1 1
+Kd 0.8 0.8 1
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl264103
+Ka 1 1 1
+Kd 0 0.4 0.8
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl264865
+Ka 1 1 1
+Kd 1 0.501961 0.501961
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl275290
+Ka 1 1 1
+Kd 1 0.501961 0.501961
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl275548
+Ka 1 1 1
+Kd 1 0.501961 0.501961
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl275863
+Ka 1 1 1
+Kd 1 0.501961 0.501961
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl286288
+Ka 1 1 1
+Kd 1 0.501961 0.501961
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl289030
+Ka 1 1 1
+Kd 1 0.501961 0.501961
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl289036
+Ka 1 1 1
+Kd 0 0.4 0.8
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl300256
+Ka 1 1 1
+Kd 0.8 0.8 1
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl300841
+Ka 1 1 1
+Kd 0 0.4 0.8
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl301057
+Ka 1 1 1
+Kd 0 0.4 0.8
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl301819
+Ka 1 1 1
+Kd 0 0.4 0.8
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl301903
+Ka 1 1 1
+Kd 0 0.4 0.8
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl313123
+Ka 1 1 1
+Kd 0.2 0.4 1
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl313441
+Ka 1 1 1
+Kd 0.8 0.8 1
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl324637
+Ka 1 1 1
+Kd 0.8 0.8 1
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl325222
+Ka 1 1 1
+Kd 0.8 0.8 1
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl325348
+Ka 1 1 1
+Kd 0.8 0.8 1
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl336544
+Ka 1 1 1
+Kd 1 0 1
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl336706
+Ka 1 1 1
+Kd 0.2 0.4 1
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl347677
+Ka 1 1 1
+Kd 0.2 0.4 1
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl358648
+Ka 1 1 1
+Kd 0.2 0.4 1
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl358690
+Ka 1 1 1
+Kd 0.2 0.4 1
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl359008
+Ka 1 1 1
+Kd 1 0 1
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl369826
+Ka 1 1 1
+Kd 1 1 0
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl370471
+Ka 1 1 1
+Kd 1 0 1
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl381289
+Ka 1 1 1
+Kd 1 0 1
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl381451
+Ka 1 1 1
+Kd 1 1 0
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl391873
+Ka 1 1 1
+Kd 0.2 0.8 0.8
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl392809
+Ka 1 1 1
+Kd 1 1 0
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl403231
+Ka 1 1 1
+Kd 1 1 0
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl403876
+Ka 1 1 1
+Kd 0.2 0.8 0.8
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl414295
+Ka 1 1 1
+Kd 0.2 0.8 0.8
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl415231
+Ka 1 1 1
+Kd 0.2 0.8 0.8
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl425650
+Ka 1 1 1
+Kd 0.6 0.8 0
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl436339
+Ka 1 1 1
+Kd 0.6 0.8 0
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl447028
+Ka 1 1 1
+Kd 0.2 0.4 1
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl450058
+Ka 1 1 1
+Kd 1 0.8 0
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl459067
+Ka 1 1 1
+Kd 1 0.8 0
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+
+newmtl mtl468076
+Ka 1 1 1
+Kd 0.2 0.4 1
+Ks 1 1 1
+Ns 1
+Tr 1 illum 3
+

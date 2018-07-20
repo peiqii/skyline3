@@ -1,0 +1,12 @@
+newmtl material_1
+       Ka 0 0 0 1
+       Kd 1 1 1 1
+       Ks 0 0 0 1
+       map_Kd D:/应用程序/GitHub/skyline------/skyline二次开发平台/skyline二次开发平台/bin/Debug/model/u_f014_t012_Residential_000.jpg
+
+newmtl material_2
+       Ka 0 0 0 1
+       Kd 0.7 0.7 0.7 1
+       Ks 0 0 0 1
+       map_Kd D:/应用程序/GitHub/skyline------/skyline二次开发平台/skyline二次开发平台/bin/Debug/model/flatRoof_13.jpg
+
