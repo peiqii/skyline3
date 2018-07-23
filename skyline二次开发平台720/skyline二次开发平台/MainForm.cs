@@ -35,6 +35,7 @@ namespace skyline二次开发平台
         private int numObjs;
         private int currObj;
         private int tduid;
+        private bool flagr = true;
         private ITerrainModel61 A1lou,keyanlou,xue19lou,yifulou,zk,dzt;
         private Random RandomClass = new Random();
       
@@ -154,9 +155,9 @@ namespace skyline二次开发平台
             //启用地下模式
             sgworld.Command.Execute(1027, 0);
             //获取中心坐标
-            IPosition61 center = sgworld.Window.CenterPixelToWorld().Position;
+            //IPosition61 center = sgworld.Window.CenterPixelToWorld().Position;
             //设置视角
-            sgworld.Navigate.SetPosition(center);
+            //sgworld.Navigate.SetPosition(center);
             
         }
 
@@ -209,7 +210,7 @@ namespace skyline二次开发平台
 
         private void 钻孔显示ToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            bool flag = true;
+            
             imenu.Invoke(34416);
             sgworld.Command.Execute(1027, 0);
             int zkid = IInfoTree.FindItem("\\钻孔");
@@ -220,22 +221,25 @@ namespace skyline二次开发平台
             IInfoTree.SetVisibility(zkid, 1);
    
            
-            if (flag)
+            if (flagr)
             {
                 
                 IInfoTree.SetGroupVisibility(buildingid, 0);
                 IInfoTree.SetVisibility(dizhitiid, 0);
                 IInfoTree.SetVisibility(xulid, 0);
                 IInfoTree.SetVisibility(tdu, 0);
-                flag = false;
+                flagr = false;
             }
             else
             {
                 IInfoTree.SetGroupVisibility(buildingid, 1);
                 IInfoTree.SetVisibility(dizhitiid, 1);
-                flag = true;
+                IInfoTree.SetVisibility(xulid, 1);
+                flagr = true;
 
             }
+            //IPosition61 CUGB = sgworld.Creator.CreatePosition(116.203125649628, 39.540540706115, 6666, AltitudeTypeCode.ATC_TERRAIN_RELATIVE, 0, 60, 0, 0);
+            //sgworld.Navigate.JumpTo(CUGB);
 
 
 
@@ -260,7 +264,8 @@ namespace skyline二次开发平台
                 IInfoTree.SetVisibility(xulid, 1);
                 IInfoTree.SetVisibility(tdu, 0);
                 flag = false;
-            }           
+            }
+            
 
         }
 
