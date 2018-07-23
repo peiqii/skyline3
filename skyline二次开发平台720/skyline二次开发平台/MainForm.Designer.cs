@@ -71,6 +71,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.设置摄像机的位置ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.axTE3DWindow1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.axTEInformationWindow1)).BeginInit();
@@ -295,26 +296,29 @@
             this.阴影属性ToolStripMenuItem,
             this.材质属性ToolStripMenuItem});
             this.场景显示控制ToolStripMenuItem1.Name = "场景显示控制ToolStripMenuItem1";
-            this.场景显示控制ToolStripMenuItem1.Size = new System.Drawing.Size(148, 22);
+            this.场景显示控制ToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
             this.场景显示控制ToolStripMenuItem1.Text = "场景显示控制";
             // 
             // 调整透明度ToolStripMenuItem
             // 
             this.调整透明度ToolStripMenuItem.Name = "调整透明度ToolStripMenuItem";
-            this.调整透明度ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.调整透明度ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.调整透明度ToolStripMenuItem.Text = "调整透明度";
+            this.调整透明度ToolStripMenuItem.Click += new System.EventHandler(this.调整透明度ToolStripMenuItem_Click);
             // 
             // 光线属性ToolStripMenuItem
             // 
             this.光线属性ToolStripMenuItem.Name = "光线属性ToolStripMenuItem";
-            this.光线属性ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.光线属性ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.光线属性ToolStripMenuItem.Text = "调整光线属性";
+            this.光线属性ToolStripMenuItem.Click += new System.EventHandler(this.光线属性ToolStripMenuItem_Click);
             // 
             // 阴影属性ToolStripMenuItem
             // 
             this.阴影属性ToolStripMenuItem.Name = "阴影属性ToolStripMenuItem";
-            this.阴影属性ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.阴影属性ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.阴影属性ToolStripMenuItem.Text = "调整阴影属性";
+            this.阴影属性ToolStripMenuItem.Click += new System.EventHandler(this.阴影属性ToolStripMenuItem_Click);
             // 
             // 材质属性ToolStripMenuItem
             // 
@@ -327,7 +331,8 @@
             this.场景相关ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.获取当前位置信息ToolStripMenuItem,
             this.单个模型响应ToolStripMenuItem,
-            this.自定义漫游路径ToolStripMenuItem});
+            this.自定义漫游路径ToolStripMenuItem,
+            this.设置摄像机的位置ToolStripMenuItem});
             this.场景相关ToolStripMenuItem.Name = "场景相关ToolStripMenuItem";
             this.场景相关ToolStripMenuItem.Size = new System.Drawing.Size(68, 21);
             this.场景相关ToolStripMenuItem.Text = "场景漫游";
@@ -413,6 +418,13 @@
             this.label2.Size = new System.Drawing.Size(171, 41);
             this.label2.TabIndex = 4;
             // 
+            // 设置摄像机的位置ToolStripMenuItem
+            // 
+            this.设置摄像机的位置ToolStripMenuItem.Name = "设置摄像机的位置ToolStripMenuItem";
+            this.设置摄像机的位置ToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
+            this.设置摄像机的位置ToolStripMenuItem.Text = "设置摄像机的位置";
+            this.设置摄像机的位置ToolStripMenuItem.Click += new System.EventHandler(this.设置摄像机的位置ToolStripMenuItem_Click);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -482,6 +494,7 @@
         private System.Windows.Forms.ToolStripMenuItem newYorkToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem losAngelesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 自定义漫游路径ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 设置摄像机的位置ToolStripMenuItem;
     }
 }
 

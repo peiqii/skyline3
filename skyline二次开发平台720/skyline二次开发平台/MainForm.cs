@@ -269,6 +269,30 @@ namespace skyline二次开发平台
             Application.Exit();
         }
 
+        private void 设置摄像机的位置ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Camera cameraform = new Camera();
+            cameraform.Show();
+        }
+
+        private void 调整透明度ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Transparency transparencyform = new Transparency();
+            transparencyform.Show();
+        }
+
+        private void 光线属性ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Light lightform = new Light();
+            lightform.Show();
+        }
+
+        private void 阴影属性ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Shadow shadowform = new Shadow();
+            shadowform.Show();
+        }
+
         private void 获取当前位置信息ToolStripMenuItem_Click(object sender, EventArgs e)
         {
             try
