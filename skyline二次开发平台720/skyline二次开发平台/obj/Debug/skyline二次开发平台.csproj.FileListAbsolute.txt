@@ -204,3 +204,7 @@ C:\Users\28623\Desktop\skyline二次开发平台720\skyline二次开发平台\ob
 C:\Users\28623\Desktop\skyline二次开发平台720\skyline二次开发平台\obj\Debug\skyline二次开发平台.Light.resources
 C:\Users\28623\Desktop\skyline二次开发平台720\skyline二次开发平台\obj\Debug\skyline二次开发平台.Shadow.resources
 C:\Users\28623\Desktop\skyline二次开发平台720\skyline二次开发平台\obj\Debug\skyline二次开发平台.Transparency.resources
+C:\Users\Administrator\Documents\GitHub\skyline\skyline二次开发平台720\skyline二次开发平台\obj\Debug\skyline二次开发平台.Camera.resources
+C:\Users\Administrator\Documents\GitHub\skyline\skyline二次开发平台720\skyline二次开发平台\obj\Debug\skyline二次开发平台.Light.resources
+C:\Users\Administrator\Documents\GitHub\skyline\skyline二次开发平台720\skyline二次开发平台\obj\Debug\skyline二次开发平台.Shadow.resources
+C:\Users\Administrator\Documents\GitHub\skyline\skyline二次开发平台720\skyline二次开发平台\obj\Debug\skyline二次开发平台.Transparency.resources
