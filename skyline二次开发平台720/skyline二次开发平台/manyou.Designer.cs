@@ -226,6 +226,7 @@
             this.Controls.Add(this.label1);
             this.Name = "manyou";
             this.Text = "manyou";
+            this.Load += new System.EventHandler(this.manyou_Load);
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -57,5 +57,10 @@ namespace skyline二次开发平台
         {
             
         }
+
+        private void manyou_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
